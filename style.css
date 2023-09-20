@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg_img{
+    width: 100vw;
+    height: 100vh;
+}
+
+.btn{
+z-index: 9;
+width: 50vw;
+height: 50vh;
+position: absolute;
+background: none;
+border: none;
+}
+.btn img{
+    width: 35vw;
+    height: 40vh;
+    
+}
+.pressed{
+    transform: rotateZ(-30deg);
+    transition-duration: 100ms;
+}
+
+.vibrate{
+    font-size: larger;
+    background: yellow;
+    position: absolute;
+}
+.change{
+    font-size: xx-large;
+    background: red;
+    transform: rotateZ(-30deg);
+    transition-duration: 100ms;
+}
